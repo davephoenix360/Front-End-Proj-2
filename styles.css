@@ -1,0 +1,334 @@
+
+.menu{
+    margin-right: 5px;
+    visibility: hidden;
+    margin-left: -15px;
+}
+
+.col-lg-10{
+    border-bottom: solid;
+    border-bottom-color: rgb(234, 239, 250);
+    height: 100px;
+    margin-left: 30px;
+    width: 1100px;
+    margin-top: 35px;
+}
+
+.col-lg-10 a{
+    margin-right: 35px;
+    color: hsl(219, 9%, 45%);
+}
+
+#user{
+    margin-left: 200px;
+}
+
+#user img{
+    width: 60px;
+    margin-left: 40px;
+}
+
+#nav{
+    position: absolute;
+    visibility: hidden;
+}
+
+.col-lg-5 img{
+    border-radius: 10px;
+}
+
+#thumbnails img{
+    width: 86.39px;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 44px;
+}
+
+#active{
+    position: absolute;
+}
+
+#overlay{
+    height: 86.39px;
+    width: 86.39px;
+    background-color: rgb(250, 250, 250, 0.8);
+    border-radius: 10px;
+    border-color: hsl(26, 100%, 55%);
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    margin-top: 44px;
+}
+
+.col-lg-5 .descrip{
+    margin-left: 50px;
+}
+
+.descrip h4{
+    margin-top: 85px;
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+}
+
+.descrip p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.descrip #def{
+    margin-top: 4vh;
+    font-size: 14px;
+    font-weight: 100;
+    color: hsl(219, 9%, 45%)
+}
+
+.descrip #price{
+    font-size: 40px;
+    margin-top: -1vh;
+    font-weight: 700;
+}
+
+.descrip #price #percent{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 1vw;
+    margin-right: 200px;
+    padding: 0.5vh;
+    border-radius: 5px;
+    background-color:hsl(223, 64%, 95%);
+    color:hsl(26, 100%, 55%);
+}
+
+.descrip #fprice{
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(220, 14%, 75%);
+}
+
+#buy{
+    margin-top: 44px;
+}
+
+.btn-group button{
+    width: 50px;
+    height: 45px;
+    padding: 10px;
+    padding-top: 1px;
+    border-radius: 7px;
+    font-size: 24px;
+    color:hsl(26, 100%, 55%);
+    font-weight:700;
+}
+
+#atc{
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 11px;
+    width: 220px;
+}
+
+.cart>path{
+    fill: white;
+}
+
+
+@media screen and (max-width:1024px) {
+    #buy{
+        margin-top: 0px;
+    }
+
+    .col-lg-10{
+        margin-bottom: 40px;
+    }
+
+    .descrip{
+        margin-top: -50px;
+        margin-left: -30px;
+        width: 500px;
+    }
+    .col-lg-5{
+        margin-top: -30px;
+        height: 1200px;
+        height: max-content;
+    }
+
+    #safe{
+        margin-top: -200px;
+    }
+    #cor{
+        margin-top: -70px;
+    }
+    #atc{
+        padding: 0px;
+        height:50px;
+    }
+    #crp{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 650px;
+    }
+    
+    .menu{
+        visibility: visible;
+        margin-right: 7px;
+        margin-left: 10px;
+    }
+    .row{
+        width: 560px;
+    }
+    .col-lg-10{
+        width: 590px;
+    }
+    .col-lg-10>a{
+        margin-left: -200px;
+        visibility: hidden;
+        float: left;
+        margin-right: -10px;
+    }
+    #buy{
+        margin-top: 0px;
+    }
+
+    .col-lg-10{
+        margin-bottom: 40px;
+    }
+
+    .descrip{
+        margin-top: -50px;
+        margin-left: -30px;
+        width: 500px;
+    }
+    .col-lg-5{
+        margin-top: -30px;
+        height: 1200px;
+        height: max-content;
+    }
+
+    #safe{
+        margin-top: -200px;
+    }
+    #cor{
+        margin-top: -70px;
+    }
+    #atc{
+        padding: 0px;
+        height:50px;
+    }
+    #crp{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .row{
+        width: 280px;
+    }
+    
+    #cor{
+        margin-top: -5px;
+    }
+
+    .menu{
+        visibility: visible;
+        margin-right: 7px;
+        margin-left: 10px;
+    }
+    .col-lg-10{
+        width: 280px;
+        height: 50px;
+    }
+
+    .col-lg-10 a{
+        margin-left: -200px;
+        visibility: hidden;
+        float: left;
+        margin-right: -10px;
+    }
+
+    #tit a{
+        
+    }
+
+    .col-lg-5 .descrip{
+        margin-left: -5px;
+    }
+
+    .col-lg-10 sub svg{
+        float: left;
+        margin-top: 10px;
+    }
+
+    #nav{
+        visibility: visible;
+        float: left;
+        margin-top: 200px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        padding: 15px;
+        border-radius: 50%;
+        padding-left: 18px;  
+        padding-bottom: 0px;
+    }
+
+    #tit{
+        visibility: visible;
+        margin-left: 0px;
+        margin-top: -30px;
+    }
+
+    #user{
+        margin-left: 10px;
+        float: right;
+        margin-right: -190px;
+    }
+
+    #user svg{
+        margin-top: 10px;
+    }
+
+    #user img{
+        margin-top: -10px;
+        margin-left: 24px;
+        width: 30px;
+        margin-right: 0px;
+    }
+
+    .col-lg-10{
+        border-bottom: 0px;
+        margin-bottom: -90px;
+    }
+    .col-lg-5{
+        margin-top: -10px;
+        height: 410px;
+        width: 500px;
+        overflow: hidden;
+    }
+    .col-lg-5 img{
+        width: 500px;
+        height: 400px;
+        margin-left: -15px;
+        border-radius: 0px;
+    }
+    #thumbnails{
+        visibility: hidden;
+    }
+    .descrip #price #percent{
+        margin-left: 10px;
+        margin-right: 150px;
+    }
+    .btn-group button{
+        width: 140px;
+        margin-bottom: 10px;
+    }
+    #atc{
+        margin-top: 10px;
+        width: 400px;
+        margin-bottom: 30px;
+    }
+}
